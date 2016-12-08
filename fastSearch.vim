@@ -1,7 +1,6 @@
 if !has('python')
   finish
 endif
-
 function! FastSearch(query)
 pyfile fastSearch.py
 endfunction
